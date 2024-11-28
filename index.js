@@ -3,7 +3,6 @@ import { registerRootComponent } from 'expo';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import App from './App';
 import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Home from './screens/Home';
@@ -22,5 +21,4 @@ const Navigation = () => {
   );
 };
 
-// Register the Navigation component as the root component
 registerRootComponent(Navigation);
